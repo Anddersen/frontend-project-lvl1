@@ -10,10 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e4c9454-2ebe-4151-90a2-03b2331aa1ac" name="Default Changelist" comment="prepare repository">
+    <list default="true" id="9e4c9454-2ebe-4151-90a2-03b2331aa1ac" name="Default Changelist" comment="brain game step-2">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/brain-games.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/brain-games.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604225433998</updated>
       <workItem from="1604225435560" duration="540000" />
-      <workItem from="1604674590462" duration="1498000" />
+      <workItem from="1604674590462" duration="3119000" />
     </task>
     <task id="LOCAL-00001" summary="prepare repository">
       <created>1604225677769</created>
@@ -112,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604225731133</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="brain game step-2">
+      <created>1604920728140</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604920728140</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,7 +140,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="prepare repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="prepare repository" />
+    <MESSAGE value="brain game step-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="brain game step-2" />
   </component>
   <component name="WindowStateProjectService">
     <state width="875" height="277" key="GridCell.Tab.0.bottom" timestamp="1604676306987">
@@ -151,9 +160,9 @@
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state width="875" height="277" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1604676306986" />
-    <state x="496" y="271" key="Vcs.Push.Dialog.v2" timestamp="1604225734069">
+    <state x="496" y="271" key="Vcs.Push.Dialog.v2" timestamp="1604920731364">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state x="496" y="271" key="Vcs.Push.Dialog.v2/0.23.1792.1017@0.23.1792.1017" timestamp="1604225734069" />
+    <state x="496" y="271" key="Vcs.Push.Dialog.v2/0.23.1792.1017@0.23.1792.1017" timestamp="1604920731364" />
   </component>
 </project>
