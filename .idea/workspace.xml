@@ -11,8 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e4c9454-2ebe-4151-90a2-03b2331aa1ac" name="Default Changelist" comment="brain game step-4: fix bug">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/hexlet-check.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/hexlet-check.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +96,7 @@
       <workItem from="1604225435560" duration="540000" />
       <workItem from="1604674590462" duration="3660000" />
       <workItem from="1605087070227" duration="599000" />
-      <workItem from="1605093058069" duration="2349000" />
+      <workItem from="1605093058069" duration="2457000" />
     </task>
     <task id="LOCAL-00001" summary="prepare repository">
       <created>1604225677769</created>
@@ -168,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605095542490</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="brain game step-4: fix bug">
+      <created>1605095667391</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1605095667391</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,9 +218,9 @@
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state width="875" height="277" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1604676306986" />
-    <state x="496" y="271" key="Vcs.Push.Dialog.v2" timestamp="1605095545886">
+    <state x="496" y="271" key="Vcs.Push.Dialog.v2" timestamp="1605095670612">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state x="496" y="271" key="Vcs.Push.Dialog.v2/0.23.1792.1017@0.23.1792.1017" timestamp="1605095545886" />
+    <state x="496" y="271" key="Vcs.Push.Dialog.v2/0.23.1792.1017@0.23.1792.1017" timestamp="1605095670612" />
   </component>
 </project>
