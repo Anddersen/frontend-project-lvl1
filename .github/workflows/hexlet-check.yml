@@ -1,13 +1,18 @@
 name: hexlet-check
 
 on:
-  push:
-    branches:
-      - main
+  - push
+  - pull_request
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    strategy:
+      # Node versions list
+      matrix:
+        node-version: [ 14.x ]
+
     steps:
       - uses: actions/checkout@v2
 
