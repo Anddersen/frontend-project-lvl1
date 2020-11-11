@@ -12,7 +12,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9e4c9454-2ebe-4151-90a2-03b2331aa1ac" name="Default Changelist" comment="brain game step-4: fix bug">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/brain-games.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/brain-games.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/cli.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +64,13 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Makefile.brain-games">
+  <component name="RunManager" selected="Makefile.brain-even">
+    <configuration name="brain-even" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="brain-even" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
     <configuration name="brain-games" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
       <makefile filename="$PROJECT_DIR$/Makefile" target="brain-games" workingDirectory="" arguments="">
         <envs />
@@ -77,6 +85,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Makefile.brain-even" />
         <item itemvalue="Makefile.brain-games" />
         <item itemvalue="Makefile.install" />
       </list>
@@ -96,7 +105,7 @@
       <workItem from="1604225435560" duration="540000" />
       <workItem from="1604674590462" duration="3660000" />
       <workItem from="1605087070227" duration="599000" />
-      <workItem from="1605093058069" duration="2828000" />
+      <workItem from="1605093058069" duration="7336000" />
     </task>
     <task id="LOCAL-00001" summary="prepare repository">
       <created>1604225677769</created>
@@ -196,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605095870890</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="brain game step-4: fix bug">
+      <created>1605096334596</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1605096334596</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,25 +239,33 @@
     <option name="LAST_COMMIT_MESSAGE" value="brain game step-4: fix bug" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="875" height="277" key="GridCell.Tab.0.bottom" timestamp="1604676306987">
+    <state width="875" height="277" key="GridCell.Tab.0.bottom" timestamp="1605099267639">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="875" height="277" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1604676306987" />
-    <state width="875" height="277" key="GridCell.Tab.0.center" timestamp="1604676306986">
+    <state width="875" height="277" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1605099267639" />
+    <state width="875" height="277" key="GridCell.Tab.0.center" timestamp="1605099267639">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="875" height="277" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1604676306986" />
-    <state width="875" height="277" key="GridCell.Tab.0.left" timestamp="1604676306985">
+    <state width="875" height="277" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1605099267639" />
+    <state width="875" height="277" key="GridCell.Tab.0.left" timestamp="1605099267638">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="875" height="277" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1604676306985" />
-    <state width="875" height="277" key="GridCell.Tab.0.right" timestamp="1604676306986">
+    <state width="875" height="277" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1605099267638" />
+    <state width="875" height="277" key="GridCell.Tab.0.right" timestamp="1605099267639">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="875" height="277" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1604676306986" />
-    <state x="496" y="271" key="Vcs.Push.Dialog.v2" timestamp="1605095873652">
+    <state width="875" height="277" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1605099267639" />
+    <state x="496" y="271" key="Vcs.Push.Dialog.v2" timestamp="1605096398911">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state x="496" y="271" key="Vcs.Push.Dialog.v2/0.23.1792.1017@0.23.1792.1017" timestamp="1605095873652" />
+    <state x="496" y="271" key="Vcs.Push.Dialog.v2/0.23.1792.1017@0.23.1792.1017" timestamp="1605096398911" />
+    <state x="694" y="452" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605102302269">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="694" y="452" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1017@0.23.1792.1017" timestamp="1605102302269" />
+    <state x="594" y="286" width="604" height="490" key="find.popup" timestamp="1605099203233">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="594" y="286" width="604" height="490" key="find.popup/0.23.1792.1017@0.23.1792.1017" timestamp="1605099203233" />
   </component>
 </project>
