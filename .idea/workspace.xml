@@ -10,7 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e4c9454-2ebe-4151-90a2-03b2331aa1ac" name="Default Changelist" comment="brain game step-5" />
+    <list default="true" id="9e4c9454-2ebe-4151-90a2-03b2331aa1ac" name="Default Changelist" comment="brain game step-5">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/brain-even.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/brain-even.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parityCheck.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/brainEven.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +49,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -56,6 +62,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -100,7 +107,7 @@
       <workItem from="1604225435560" duration="540000" />
       <workItem from="1604674590462" duration="3660000" />
       <workItem from="1605087070227" duration="599000" />
-      <workItem from="1605093058069" duration="7862000" />
+      <workItem from="1605093058069" duration="11061000" />
     </task>
     <task id="LOCAL-00001" summary="prepare repository">
       <created>1604225677769</created>
@@ -221,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605103497474</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="brain game step-5">
+      <created>1605104053858</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1605104053858</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,10 +279,10 @@
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state width="875" height="277" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1605099267639" />
-    <state x="496" y="271" key="Vcs.Push.Dialog.v2" timestamp="1605103500162">
+    <state x="496" y="271" key="Vcs.Push.Dialog.v2" timestamp="1605104057185">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state x="496" y="271" key="Vcs.Push.Dialog.v2/0.23.1792.1017@0.23.1792.1017" timestamp="1605103500162" />
+    <state x="496" y="271" key="Vcs.Push.Dialog.v2/0.23.1792.1017@0.23.1792.1017" timestamp="1605104057185" />
     <state x="694" y="452" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605103878560">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>

@@ -7,4 +7,8 @@
 
 [![project 1](https://github.com/Anddersen/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Anddersen/frontend-project-lvl1/actions)
 
+brain even
 [![asciicast](https://asciinema.org/a/13PHPTq1pGvSFfTFe5590wAzI.svg)](https://asciinema.org/a/13PHPTq1pGvSFfTFe5590wAzI)
+
+brain calc
+[![asciicast](https://asciinema.org/a/Y1yx09cSBaWiZp3ROsA8UoWWu.svg)](https://asciinema.org/a/Y1yx09cSBaWiZp3ROsA8UoWWu)
