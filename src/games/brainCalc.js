@@ -1,6 +1,6 @@
 import promptly from 'promptly';
-import { generateRandomNumber, generateRandomOperation } from './help.js';
-import createGame from './gamesCreate.js';
+import { generateRandomNumber, generateRandomOperation } from '../help.js';
+import createGame from '../gamesCreate.js';
 
 function checkAnswer(number1, number2, operation, answer) {
   switch (operation) {

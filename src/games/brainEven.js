@@ -1,6 +1,6 @@
 import promptly from 'promptly';
-import { generateRandomNumber } from './help.js';
-import createGame from './gamesCreate.js';
+import { generateRandomNumber } from '../help.js';
+import createGame from '../gamesCreate.js';
 
 function checkAnswer(number, answer) {
   if (number % 2 === 0 && answer === 'yes') {

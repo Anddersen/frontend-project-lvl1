@@ -1,6 +1,6 @@
 import promptly from 'promptly';
-import { generateRandomNumber, getGcd } from './help.js';
-import createGame from './gamesCreate.js';
+import { generateRandomNumber, getGcd } from '../help.js';
+import createGame from '../gamesCreate.js';
 
 function checkAnswer(number1, number2, answer) {
   const gcd = getGcd(number1, number2);
