@@ -10,12 +10,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e4c9454-2ebe-4151-90a2-03b2331aa1ac" name="Default Changelist" comment="brain game step-5">
+    <list default="true" id="9e4c9454-2ebe-4151-90a2-03b2331aa1ac" name="Default Changelist" comment="brain game step-6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/brain-calc.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/brain-calc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/brain-even.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/brain-even.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parityCheck.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/brainEven.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/brainCalc.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/brainCalc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/brainEven.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/brainEven.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/help.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/help.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +53,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -66,7 +71,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Makefile.brain-even">
+  <component name="RunManager" selected="Node.js.gamesCreate.js">
     <configuration name="brain-even" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
       <makefile filename="$PROJECT_DIR$/Makefile" target="brain-even" workingDirectory="" arguments="">
         <envs />
@@ -85,8 +90,12 @@
       </makefile>
       <method v="2" />
     </configuration>
+    <configuration name="gamesCreate.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/gamesCreate.js" working-dir="$PROJECT_DIR$/src">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.gamesCreate.js" />
         <item itemvalue="Makefile.brain-even" />
         <item itemvalue="Makefile.brain-games" />
         <item itemvalue="Makefile.install" />
@@ -107,7 +116,7 @@
       <workItem from="1604225435560" duration="540000" />
       <workItem from="1604674590462" duration="3660000" />
       <workItem from="1605087070227" duration="599000" />
-      <workItem from="1605093058069" duration="11061000" />
+      <workItem from="1605093058069" duration="22915000" />
     </task>
     <task id="LOCAL-00001" summary="prepare repository">
       <created>1604225677769</created>
@@ -235,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605104053858</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="brain game step-6">
+      <created>1605262477476</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1605262477476</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,29 +276,34 @@
     <MESSAGE value="brain game step-4" />
     <MESSAGE value="brain game step-4: fix bug" />
     <MESSAGE value="brain game step-5" />
-    <option name="LAST_COMMIT_MESSAGE" value="brain game step-5" />
+    <MESSAGE value="brain game step-6" />
+    <option name="LAST_COMMIT_MESSAGE" value="brain game step-6" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="875" height="277" key="GridCell.Tab.0.bottom" timestamp="1605099267639">
+    <state width="875" height="136" key="GridCell.Tab.0.bottom" timestamp="1605612184425">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="875" height="277" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1605099267639" />
-    <state width="875" height="277" key="GridCell.Tab.0.center" timestamp="1605099267639">
+    <state width="875" height="136" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1605612184425" />
+    <state width="875" height="136" key="GridCell.Tab.0.center" timestamp="1605612184424">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="875" height="277" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1605099267639" />
-    <state width="875" height="277" key="GridCell.Tab.0.left" timestamp="1605099267638">
+    <state width="875" height="136" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1605612184424" />
+    <state width="875" height="136" key="GridCell.Tab.0.left" timestamp="1605612184424">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="875" height="277" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1605099267638" />
-    <state width="875" height="277" key="GridCell.Tab.0.right" timestamp="1605099267639">
+    <state width="875" height="136" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1605612184424" />
+    <state width="875" height="136" key="GridCell.Tab.0.right" timestamp="1605612184425">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="875" height="277" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1605099267639" />
-    <state x="496" y="271" key="Vcs.Push.Dialog.v2" timestamp="1605104057185">
+    <state width="875" height="136" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1605612184425" />
+    <state x="496" y="271" key="Vcs.Push.Dialog.v2" timestamp="1605603494157">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state x="496" y="271" key="Vcs.Push.Dialog.v2/0.23.1792.1017@0.23.1792.1017" timestamp="1605104057185" />
+    <state x="496" y="271" key="Vcs.Push.Dialog.v2/0.23.1792.1017@0.23.1792.1017" timestamp="1605603494157" />
+    <state x="100" y="123" width="1592" height="817" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605612690909">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="100" y="123" width="1592" height="817" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1792.1017@0.23.1792.1017" timestamp="1605612690908" />
     <state x="694" y="452" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605103878560">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>

@@ -1,6 +1,6 @@
 import promptly from 'promptly';
-
-import { generateRandomNumber, wellcom } from './help.js';
+import { generateRandomNumber } from './help.js';
+import createGame from './gamesCreate.js';
 
 function checkAnswer(number, answer) {
   if (number % 2 === 0 && answer === 'yes') {
@@ -9,38 +9,24 @@ function checkAnswer(number, answer) {
   return number % 2 !== 0 && answer === 'no';
 }
 
-async function getAnswers(numberQuestion) {
+async function generateQuestions(numberQuestion) {
   const countQuestion = numberQuestion + 1;
 
   const number = generateRandomNumber(0, 100);
   console.log(`Question: ${number}`);
 
   const answer = await promptly.choose('Your answer?', ['yes', 'no']);
-
-  const status = checkAnswer(number, answer);
+  const status = await checkAnswer(number, answer);
 
   if (status) {
-    if (countQuestion > 3) {
-      return { status: true, answer };
-    }
     console.log('Correct!');
-    return getAnswers(countQuestion);
+    if (countQuestion > 3) {
+      return { status: true, answer, current: answer };
+    }
+    return generateQuestions(countQuestion);
   }
 
-  return { status: false, answer };
+  return { status: false, answer, current: answer === 'yes' ? 'no' : 'yes' };
 }
 
-
-export default async () => {
-  const name = await wellcom();
-
-  console.log('Answer "yes" if the number is even, otherwise answer "no".');
-  await showQuestion();
-  const { status, answer } = await getAnswers(1);
-
-  if (status) {
-    console.log(`Congratulations, ${name}`);
-  } else {
-    console.log(`'${answer}' is wrong answer ;(. Correct answer was ${answer === 'yes' ? 'no' : 'yes'}. Let's try again, ${name}!`);
-  }
-};
+export default () => createGame('Answer "yes" if the number is even, otherwise answer "no".', generateQuestions);
