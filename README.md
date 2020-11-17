@@ -18,3 +18,6 @@ brain gcd
 
 brain progression
 [![asciicast](https://asciinema.org/a/kHyrO3eZKosXxREz2Hdiq5M6d.svg)](https://asciinema.org/a/kHyrO3eZKosXxREz2Hdiq5M6d)
+
+brain prime
+[![asciicast](https://asciinema.org/a/6FnhPXTkuVCBOobr6KY4nJtM1.svg)](https://asciinema.org/a/6FnhPXTkuVCBOobr6KY4nJtM1)

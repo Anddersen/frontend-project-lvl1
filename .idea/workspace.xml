@@ -10,17 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e4c9454-2ebe-4151-90a2-03b2331aa1ac" name="Default Changelist" comment="fix bugs and add finish step 7">
+    <list default="true" id="9e4c9454-2ebe-4151-90a2-03b2331aa1ac" name="Default Changelist" comment="brain game step - 8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/brain-calc.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/brain-calc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/brain-even.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/brain-even.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/brain-gcd.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/brain-gcd.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/brainCalc.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/games/brainCalc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/brainEven.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/games/brainEven.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/brainGcd.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/games/brainGcd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/help.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/help.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +116,7 @@
       <workItem from="1604225435560" duration="540000" />
       <workItem from="1604674590462" duration="3660000" />
       <workItem from="1605087070227" duration="599000" />
-      <workItem from="1605093058069" duration="26354000" />
+      <workItem from="1605093058069" duration="27281000" />
     </task>
     <task id="LOCAL-00001" summary="prepare repository">
       <created>1604225677769</created>
@@ -263,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605614575202</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="brain game step - 8">
+      <created>1605627347935</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1605627347935</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +292,8 @@
     <MESSAGE value="brain game step-5" />
     <MESSAGE value="brain game step-6" />
     <MESSAGE value="fix bugs and add finish step 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix bugs and add finish step 7" />
+    <MESSAGE value="brain game step - 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="brain game step - 8" />
   </component>
   <component name="WindowStateProjectService">
     <state width="875" height="136" key="GridCell.Tab.0.bottom" timestamp="1605612184425">
@@ -309,10 +312,10 @@
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state width="875" height="136" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1605612184425" />
-    <state x="496" y="271" key="Vcs.Push.Dialog.v2" timestamp="1605614579095">
+    <state x="496" y="271" key="Vcs.Push.Dialog.v2" timestamp="1605627352688">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state x="496" y="271" key="Vcs.Push.Dialog.v2/0.23.1792.1017@0.23.1792.1017" timestamp="1605614579095" />
+    <state x="496" y="271" key="Vcs.Push.Dialog.v2/0.23.1792.1017@0.23.1792.1017" timestamp="1605627352688" />
     <state x="100" y="123" width="1592" height="817" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605612690909">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>

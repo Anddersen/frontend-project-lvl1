@@ -26,5 +26,10 @@ export function getGcd(a, b) {
   return getGcd(b, a % b);
 }
 
+export function isPrime(num) {
+  for (let i = 2; i < num; i += 1) if (num % i === 0) return false;
+  return num > 1;
+}
+
 export const compose = (...fns) => (x) => fns.reduceRight((acc, fn) => acc.then(fn),
   Promise.resolve(x));
